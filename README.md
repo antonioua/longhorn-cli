@@ -1,7 +1,5 @@
-# Work in progress. Coming soon!
-
 ### longhorn-cli
-longhorn-cli allows to automate some routine tasks.
+longhorn-cli allows to automate your routine tasks by using it inside your automation.
 
 Run locally
 ```bash
