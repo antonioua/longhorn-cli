@@ -100,14 +100,5 @@ var fstrimCmd = &cobra.Command{
 
 func init() {
 	VolumesCmd.AddCommand(fstrimCmd)
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// fstrimCmd.PersistentFlags().String("foo", "", "A help for foo")
 	VolumesCmd.PersistentFlags().StringVarP(&lVolumes, "volumes", "v", "all", "longhorn volumes list")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// fstrimCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
